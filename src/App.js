@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Navbar from 'react-bootstrap/Navbar';
 import Stack from 'react-bootstrap/Stack';
+import logo from './logo.png'
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
         <Navbar.Brand href="#home">
         <img
               alt=""
-              src='/clouds.svg'
+              src={logo}
               width="30"
               height="30"
               className="d-inline-block align-top"
