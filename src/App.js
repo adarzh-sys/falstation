@@ -12,7 +12,17 @@ function App() {
         
       <Navbar bg="light" expand="lg" fixed="top">
       <Container fluid>
-        <Navbar.Brand href="#home">FAL Weather Station</Navbar.Brand>
+
+        <Navbar.Brand href="#home">
+        <img
+              alt=""
+              src='/img/clouds.svg'
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+            FAL Weather Station
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Form className="d-flex">
@@ -31,7 +41,7 @@ function App() {
 
 
         <div class="right-container">
- 
+
         <card>
         <iframe
           title="moisture"
