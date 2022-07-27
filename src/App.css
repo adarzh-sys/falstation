@@ -6,6 +6,8 @@
 .App-header {
   background-color: white;
   background-image: url(./img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,6 +15,20 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Navbar {
+  opacity:19% ;
+}
+
+
+.Progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20px;
+
 }
 
 .App-link {
